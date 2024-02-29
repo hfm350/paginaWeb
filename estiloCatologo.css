@@ -1,30 +1,9 @@
-header{
-    background-color: gray;
-    color: rgb(255, 255, 255);
-    font-size: 15px;
-    font-family: Montserrat,sans-serif;
-    margin: 0px;
-    padding: 2px;
-    border-style: solid;
-
-}
-header p, h1{
-    margin: 5px;
-    text-align: center;
-}
-h1{
-    text-transform: uppercase;
-}
 img{
     display: flex;
     width: 100px;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-
-}
-nav a:hover{
-    color: black;
 }
 html{
     background-color: black;
@@ -37,11 +16,12 @@ html{
     align-items: center;
     max-width: 100%;
     margin: 0;
+    height: 100%;
     list-style: none;
     color: rgb(255, 255, 255);
     padding: 0;
+    font-weight: bold;
     font-family: sans-serif;
-    
 
 }
 .menu li{
@@ -52,12 +32,8 @@ html{
     background-color:gray;
     padding-top: 10px;
 }
-
-main{
-    color: white;
-    font-family: sans-serif;
-    background-color: gray;
-    padding: 10px;
+nav a:hover{
+    color: black;
 }
 footer{
     color: white;
@@ -74,8 +50,44 @@ footer p{
     text-decoration: underline;
     margin: 10px;
 }
-
-
+header p, h1{
+    margin: 5px;
+    text-align: center;
+    color: white;
+}
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    color: white;
+    font-family: sans-serif;
+    }
+.cars {
+    background: #000000;
+    width: 100%;
+    text-align: center;
+    min-height: 200px;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+}
+.cars img {
+    width: 150px;
+    margin: auto;
+}
+.cars .info {
+    padding: 1rem 2rem;
+    background: gray;
+    font-weight: bold;
+}
+h1{
+    background-color: gray;
+    font-family: sans-serif;
+}
+    
+        
+    
 @media (max-width: 400px) {
     .menu {
         flex-direction: column;
@@ -85,4 +97,3 @@ footer p{
 
     }
 }
-    
