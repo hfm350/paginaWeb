@@ -15,10 +15,14 @@ header p, h1{
     margin: 5px;
     text-align: center;
 }
+h1{
+    text-transform: uppercase;
+}
 img{
     width: 100px;
-    padding-left: 40%;
-    padding-right: 40%;
+    padding-left: 42%;
+    padding-right: 0 auto;
+
 }
 html{
     background-color: black;
@@ -58,3 +62,13 @@ main{
     background-color: gray;
     padding: 10px;
 }
+
+@media (max-width: 400px) {
+    .menu {
+        flex-direction: column;
+    }
+    main{
+        flex-direction: column;
+    }
+}
+    
