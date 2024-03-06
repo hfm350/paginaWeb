@@ -128,7 +128,7 @@ a{
     flex-direction: column;
 }
 .cars img {
-    width: 150px;
+    width: 500px;
     margin: auto;
 }
 .cars .info {
@@ -145,6 +145,10 @@ a{
         flex-direction: column;
 
     }
+    .cars img{
+        width: 150px;
+    }
+    
 }
 .izquierda{
     color: white;
